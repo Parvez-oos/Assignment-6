@@ -8,6 +8,7 @@ const Navbar = ({ cartCount, onCartClick }) => {
         DigiTools
       </div>
 
+
       {/* Navigation Links - Medium Gray, Specific Spacing */}
       <div className="hidden lg:flex items-center gap-10 font-semibold text-[#374151]">
         {["Products", "Features", "Pricing", "Testimonials", "FAQ"].map((item) => (
@@ -19,6 +20,7 @@ const Navbar = ({ cartCount, onCartClick }) => {
           </a>
         ))}
       </div>
+
 
       {/* Right Side Actions */}
       <div className="flex items-center gap-8">
@@ -43,6 +45,7 @@ const Navbar = ({ cartCount, onCartClick }) => {
             </span>
           )}
         </div>
+        
 
         {/* Login Link */}
         <button className="text-[#111827] font-bold text-[15px] hover:text-[#7C3AED]">
