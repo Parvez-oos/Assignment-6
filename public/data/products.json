@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy instantly with advanced AI.",
+    "price": 29,
+    "period": "/mo",
+    "tag": "Best Seller",
+    "tagType": "warning",
+    "features": ["100+ AI templates", "SEO optimization", "Export to Word/PDF"],
+    "icon": "/assets/products/writing_2327400_1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "5000+ premium templates for social media, presentations, and branding materials.",
+    "price": 49,
+    "period": "/one-time",
+    "tag": "Popular",
+    "tagType": "info",
+    "features": ["Figma & PSD files", "Monthly updates", "Commercial license"],
+    "icon": "/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of high-quality photos, vectors, and videos for your projects.",
+    "price": 19,
+    "period": "/mo",
+    "tag": "New",
+    "tagType": "success",
+    "features": ["1M+ Assets", "Unlimited downloads", "Royalty-free"],
+    "icon": "/assets/products/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate your daily workflows and save 20+ hours every week effortlessly.",
+    "price": 79,
+    "period": "/yr",
+    "tag": "Trending",
+    "tagType": "secondary",
+    "features": ["Zapier integration", "API Access", "Custom workflows"],
+    "icon": "/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Social Media Content Kit",
+    "description": "A complete toolkit for managing and growing your social media presence rapidly.",
+    "price": 59,
+    "period": "/one-time",
+    "tag": "Best Value",
+    "tagType": "warning",
+    "features": ["365-day calendar", "Analytics dashboard", "Post scheduler"],
+    "icon": "/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "E-commerce Starter Kit",
+    "description": "Everything you need to launch and scale your online store successfully.",
+    "price": 99,
+    "period": "/one-time",
+    "tag": "Essential",
+    "tagType": "primary",
+    "features": ["Store templates", "Payment gateways", "Inventory tracker"],
+    "icon": "/assets/products/shopping-cart.png"
+  }
+]
