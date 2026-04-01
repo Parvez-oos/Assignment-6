@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-[#0f172a] text-gray-400 py-16 px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-12 border-b border-gray-800 pb-12 mb-8">
         
-        {/* Brand */}
+        
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">DigiTools</h2>
           <p className="text-sm leading-relaxed">
@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Product */}
+        
         <div>
           <h4 className="text-white font-bold mb-4">Product</h4>
           <ul className="space-y-2 text-sm">
@@ -25,7 +25,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Company */}
+        
         <div>
           <h4 className="text-white font-bold mb-4">Company</h4>
           <ul className="space-y-2 text-sm">
@@ -36,7 +36,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* ✅ NEW: Resources (Figma requirement) */}
+        
         <div>
           <h4 className="text-white font-bold mb-4">Resources</h4>
           <ul className="space-y-2 text-sm">
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* ✅ Social Media (with real icons) */}
+        
         <div>
           <h4 className="text-white font-bold mb-4">Social</h4>
           <div className="flex space-x-4">
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom */}
+      
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-xs">
         <p>© 2026 DigiTools. All rights reserved.</p>
         <div className="space-x-4 mt-4 md:mt-0">

@@ -49,7 +49,7 @@ const Pricing = () => {
 
   return (
     <section className="relative py-24 px-6 bg-white overflow-hidden">
-      {/* Blue Diagonal Pattern Background */}
+      
       <div 
         className="absolute top-0 left-0 w-full h-40 opacity-10" 
         style={{ backgroundImage: 'repeating-linear-gradient(45deg, #0ea5e9, #0ea5e9 1px, transparent 1px, transparent 10px)' }}
@@ -63,7 +63,7 @@ const Pricing = () => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
 
-        {/* Pricing Cards Grid - Using items-stretch for equal height */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div
@@ -74,7 +74,7 @@ const Pricing = () => {
                 : "bg-white text-[#1E293B] shadow-sm"
               }`}
             >
-              {/* Most Popular Badge */}
+              
               {plan.isPopular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#FEF3C7] text-[#D97706] text-[13px] font-bold px-5 py-1.5 rounded-full shadow-sm z-30">
                   Most Popular
@@ -114,7 +114,7 @@ const Pricing = () => {
                 </ul>
               </div>
 
-              {/* Action Button - Always at the bottom */}
+              
               <button
                 className={`w-full py-4 rounded-full font-bold text-lg transition-all shadow-lg mt-auto ${
                   plan.isPopular

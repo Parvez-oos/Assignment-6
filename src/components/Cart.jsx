@@ -5,7 +5,7 @@ const Cart = ({ cartItems, removeFromCart, proceedToCheckout, setActiveTab }) =>
 
   return (
     <div className="w-full max-w-5xl mx-auto px-4">
-      {/* Back Button positioned above the card */}
+     
       <div className="mb-6">
         <button 
           onClick={() => setActiveTab("products")}
@@ -33,19 +33,19 @@ const Cart = ({ cartItems, removeFromCart, proceedToCheckout, setActiveTab }) =>
                 className="flex items-center justify-between p-6 bg-[#F9FAFB] rounded-2xl hover:bg-white hover:shadow-sm transition-all border border-transparent hover:border-gray-100"
               >
                 <div className="flex items-center space-x-6">
-                  {/* Product Icon Box */}
+                  
                   <div className="w-16 h-16 bg-white rounded-2xl shadow-sm p-3 flex items-center justify-center border border-gray-50">
                     <img src={item.icon} alt={item.name} className="w-full h-full object-contain" />
                   </div>
                   
-                  {/* Product Info */}
+
                   <div>
                     <h4 className="text-lg font-bold text-[#111827] mb-1">{item.name}</h4>
                     <p className="text-gray-500 font-medium">${item.price}</p>
                   </div>
                 </div>
 
-                {/* Remove Button - Matches Pink Color in Image */}
+                
                 <button 
                   onClick={() => removeFromCart(item.id)}
                   className="text-[#FF4D8D] font-bold text-sm hover:text-[#e6457e] transition-colors px-4 py-2"
@@ -57,7 +57,7 @@ const Cart = ({ cartItems, removeFromCart, proceedToCheckout, setActiveTab }) =>
           </div>
         )}
 
-        {/* Footer Section */}
+        
         {cartItems.length > 0 && (
           <div className="mt-8 border-t border-gray-100 pt-8">
             <div className="flex justify-between items-center mb-10">

@@ -1,16 +1,23 @@
-# React + Vite
+Name: DigiTools – Premium Digital Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a sleek, high-performance web application designed for creators and professionals. It bridges the gap between powerful digital assets and a seamless user experience. Whether you're looking for AI writing assistants or premium design kits, DigiTools provides a curated shopping experience with a modern, "Figma-to-Code" precision finish.
 
-Currently, two official plugins are available:
+**Technologies Used**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. React.js
+2. Tailwind CSS
+3. DaisyUI
+4. JavaScript (ES6+)
+5. React-Toastify
+6. JSON
 
-## React Compiler
+**Key Features**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Intelligent Section Toggling
+No more cluttered screens. Users can seamlessly switch between the Product Gallery and the Shopping Bag with a single click. This state-driven navigation ensures the interface remains clean, focused, and ultra-responsive.
 
-## Expanding the ESLint configuration
+2. Dynamic "Bag" Management
+Experience a friction-less checkout flow. Our cart doesn't just store items; it calculates totals in real-time, provides instant visual feedback via Toastify notifications when items are added or removed, and features a "Proceed to Checkout" logic that resets the state for a fresh start.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. High-Fidelity Responsive Design
+From the vibrant indigo gradients in the Stats Section to the bold, "black-font" typography in the Pricing Tables, every pixel is optimized. The layout is fully responsive, ensuring your premium marketplace looks stunning on a 27-inch monitor or a 6-inch smartphone.

@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProductionCard = ({ product, addToCart, isAdded }) => {
-  // Function to determine exact badge colors based on tag text
+ 
   const getBadgeStyle = (tag) => {
     switch (tag) {
       case "Best Seller":
@@ -24,7 +24,7 @@ const ProductionCard = ({ product, addToCart, isAdded }) => {
   return (
     <div className="bg-white rounded-3xl p-6 border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] hover:shadow-lg transition-all flex flex-col h-full">
       
-      {/* Top Row: Icon and Tag */}
+      
       <div className="flex justify-between items-start mb-6">
         <div className="w-12 h-12 bg-gray-50 rounded-2xl flex items-center justify-center p-2.5 shadow-sm border border-gray-50">
           <img src={product.icon} alt={product.name} className="w-full h-full object-contain" />
@@ -34,19 +34,19 @@ const ProductionCard = ({ product, addToCart, isAdded }) => {
         </span>
       </div>
       
-      {/* Titles and Description */}
+     
       <h3 className="text-xl font-bold text-gray-900 mb-3">{product.name}</h3>
       <p className="text-gray-500 text-[13px] leading-relaxed mb-6 grow">
         {product.description}
       </p>
       
-      {/* Pricing */}
+      
       <div className="flex items-baseline mb-6">
         <span className="text-2xl font-extrabold text-gray-900">${product.price}</span>
         <span className="text-gray-400 text-sm font-medium ml-1">{product.period}</span>
       </div>
 
-      {/* Features List */}
+      
       <ul className="space-y-3 mb-8">
         {product.features.map((feature, idx) => (
           <li key={idx} className="flex items-start text-[13px] text-gray-500 font-medium">
@@ -58,7 +58,7 @@ const ProductionCard = ({ product, addToCart, isAdded }) => {
         ))}
       </ul>
 
-      {/* Button */}
+      
       <button
         onClick={() => addToCart(product)}
         disabled={isAdded}
